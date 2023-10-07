@@ -8,7 +8,7 @@ import java.util.Set;
 public class Task_2 {
 
     public static void main(String[] args) {
-        System.out.println("\n******************* WORD COUNT *********************\n");
+        System.out.println("\n******************* WORD COUNTER *********************\n");
         try {
             String text = getInputText(); 
             int totalWordCount = countWords(text);
